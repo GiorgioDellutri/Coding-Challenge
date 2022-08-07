@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('sfondo.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 1045px;
+    height: 740px;
+    background-color: rgba(0, 0, 0, 0.452);
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+input[type=button]{
+   height: 20px;
+   font-size: 75%;
+   margin-top: 10px;
+} 
+
+#logo{
+    height: 100px;
+    width: 220px;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h1{
+    text-align: center;
+    color: lime;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.nav-box{
+    height: 40px;
+    width: 890px;
+    background-color: lime;
+    text-align: center;
+    margin: auto;
+}
+
+.Gino22{
+    height: 100px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+div > span{
+    color: white;
+}
+
+.tipo-monopattino{
+    font-size: 20px;
+}
+
+.arrow:after{
+    content: "\21A6";
+}
+
+.info-monopattino{
+    font-size: 14px;
+}
+
+.medium-battery{
+    width: 320px;
+    height: 25px;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.Mike24, .Gino22, .Fede154{
+    margin-left: 75px;
+}
+
+.Mike24{
+    height: 100px;
+    width: 400px;
+    margin-top: 25px;
+}
+
+.full-battery{
+    width: 540px;
+    height: 25px;
+    background-color: limegreen;
+    border-radius: 5px;
+}
+
+.Fede154{
+    height: 100px;
+    width: 400px;
+    margin-top: 25px;
+}
+
+.low-battery{
+    width: 130px;
+    height: 25px;
+    background-color: red;
+    border-radius: 5px;
+}
